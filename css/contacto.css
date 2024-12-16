@@ -1,0 +1,42 @@
+.contact-section {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .contact-info {
+    background-color: rgb(255, 219, 152);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-info:hover {
+    transform: scale(1.05);
+  }
+  
+  .contact-info h5 {
+    font-size: 1.2rem; 
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info i {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  form .btn-primary {
+    background-color: #000000;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  form .btn-primary:hover {
+    transform: scale(1.05);
+  }
+  
+  form .form-control {
+    font-size: 1rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  form .form-control:focus {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }

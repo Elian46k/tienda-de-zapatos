@@ -1,0 +1,87 @@
+/* PRODUCTOS */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #fff6e5;
+}
+
+.card .btn {
+    background-color: #f3d8a6;
+    border-color: #f3d8a6;
+    color: #000; 
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; 
+}
+
+.card .btn:hover {
+    background-color: #e0c18a; 
+    border-color: #e0c18a;
+}
+
+/* DETALLE */
+.btn-primary {
+    background-color: #f2e574;
+    border: none;
+}
+
+.modal-header {
+    background-color: #ffe096;
+    color: #000000;
+}
+.modal-footer .btn-primary {
+    background-color: #ffe096;
+    color: #000000;
+    border: none;
+}
+.modal-footer .btn-primary:hover {
+    background-color: #c0b768;
+    color: #000000;
+}
+
+
+/* PAGINACION */
+.pagination .page-link {
+    color: black; 
+}
+
+.pagination .page-item.active .page-link {
+    background-color: black; 
+    border-color: black;
+    color: white; 
+}
+/* CODIGO USADO PA OTRO LADOOOOUUUU */
+.btn-add-to-cart {
+    background-color: #000000;
+    border: none;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #050a0f;
+}
+
+table th, table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#cart-total {
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #000000;
+}
+
+button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    font-size: 1.1rem;
+}
